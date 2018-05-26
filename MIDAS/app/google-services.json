@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "363590674012-ihgn7o5821j7a2q099u6q0apb23sh4hr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.midas.mobile3.midas_mobile",
+            "certificate_hash": "7bf8edf55c53479f842d01f207254221239256e0"
+          }
+        },
+        {
           "client_id": "363590674012-masi1s64faqe360k1n8p9i6tsu05b8ok.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
