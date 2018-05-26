@@ -15,12 +15,12 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        signup = findViewById(R.id.signup);
+        signup = findViewById(R.id.sign);
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent siupintent = new Intent(LoginActivity.this,SignupActivity.class);
-                startActivity(siupintent);
+                Intent Master = new Intent(LoginActivity.this,MasterActivity.class);
+                startActivity(Master);
             }
         });
     }

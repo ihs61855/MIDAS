@@ -42,7 +42,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:layout_constraintVertical_bias="0.0" />
 
-    <com.google.android.gms.common.SignInButton
+    <Button
         android:id="@+id/sign"
         android:layout_width="231dp"
         android:layout_height="43dp"
